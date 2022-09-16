@@ -43,6 +43,7 @@
 				FontSize="20"
 				Height="40"
 				Width="200"
+				PlaceholderText="Сортировка"
 				Items="{Binding ComboBoxSortItems}"/>
 			<ComboBox 
 				Grid.Column="2"
@@ -50,6 +51,7 @@
 				FontSize="20"
 				Height="40"
 				Width="200"
+				PlaceholderText="Фильтрация"
 				Items="{Binding ComboBoxFilterItems}"/>
 			
 		</Grid>
